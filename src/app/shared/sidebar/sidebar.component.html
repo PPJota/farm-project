@@ -1,0 +1,8 @@
+<section>
+   <a [routerLink]="['']" class="speciesName">Home</a>
+   <ng-template ngFor let-farm [ngForOf]="listOfFarm">
+      <a [routerLink]="['../../farm',farm.id]" *ngIf="farm" class="speciesName">
+         Farm: {{farm.name}}[{{farm.animalsCount}}]
+      </a>
+   </ng-template>
+</section>

@@ -1,0 +1,8 @@
+:host > header{
+   height: 10vh;
+   color: #431004;
+   font-weight: 400;
+   font-size: 2rem;
+   background-color: #ffe643;
+   border-bottom: 3px solid;
+}

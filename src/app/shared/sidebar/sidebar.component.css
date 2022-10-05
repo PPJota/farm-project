@@ -1,0 +1,32 @@
+:host {
+   width: 12vw;
+   min-height: 90vh;
+   border-right: 2px solid;
+   color: #431004;
+   background: #ffe643;
+}
+
+section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 1rem;
+}
+
+.speciesName{
+   width: 100%;
+   min-height: 1.2rem;
+   background: #f59a25;
+   border-radius: 10px;
+   margin-top: 0.5rem;
+
+   color:inherit;
+   text-decoration: none;
+   text-align: center;
+}
+
+.speciesName:hover{
+   background: #772c0f;
+   color:#FFF;
+}

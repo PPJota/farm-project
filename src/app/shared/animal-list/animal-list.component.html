@@ -1,0 +1,21 @@
+<section>
+   <h1>Farm: {{farmName}}</h1>
+   <form>
+      <input class="searchInput" type="text" placeholder="Search by days alive...">
+   </form>
+   <label>
+      Animals alive:
+   </label>
+   <ng-template ngFor let-animal [ngForOf]="listAnimals">
+      <div class="animalItem">
+         <button class="animalInfobtn" [routerLink]="['']">
+            Id: {{animal['id']}} - Specie: {{animal['specie']['name']}}
+         </button>
+      </div>
+   </ng-template>
+   <div class="pgnBtn">
+      <button class="paginationBtn"> Prev. </button>
+      <button class="paginationBtn"> Next </button>
+   </div>
+
+</section>

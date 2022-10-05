@@ -1,0 +1,20 @@
+.color1 {color: #431004;}
+.color2 {color: #772c0f;}
+.color3 {color: #b35c1a;}
+.color4 {color: #f59a25;}
+.color5 {color: #ffe643;}
+
+html {
+   height: 100%;
+   background: #ffef84ec;
+}
+
+main {
+   color: #431004;
+   margin: 0 auto;
+}
+body { 
+   height: 100%; 
+   margin: 0; 
+   font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
